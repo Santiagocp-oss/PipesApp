@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class NumerosComponent {
 
+  VentasNetas: number = 2566789.5667;
+  Porcentaje: number = 0.485680;
 }
