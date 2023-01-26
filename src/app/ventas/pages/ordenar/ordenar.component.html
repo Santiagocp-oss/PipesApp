@@ -1,6 +1,30 @@
 <div class="text-layout">
     <h1>Pipes Personalizados</h1>
     <p>
-        Pipes creados por {{'nosotros' | uppercase}}
+        Pipes creados por 
+        {{'nosotros' | Mayusculas:bMayusculas}}
     </p>
+
+    <button pButton 
+    type="button" 
+    label="Cambiar Mayusculas" 
+    class="p-button-success"
+    (click)="cambiar()">
+    </button>
+</div>
+
+<div>
+<p-toolbar>
+    <div class="p-toolbar-group-start">
+    </div>
+
+    <div class="p-toolbar-group-end">
+        <button pButton
+                icon="pi pi-sort"
+                label="Por nombre"
+                class="p-mr-1">
+
+        </button>
+    </div>
+</p-toolbar>
 </div>

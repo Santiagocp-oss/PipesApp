@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class OrdenarComponent {
 
+  bMayusculas:boolean = true;
+
+  constructor(){
+
+  }
+  cambiar(){
+    this.bMayusculas = !this.bMayusculas;
+  }
+
 }
